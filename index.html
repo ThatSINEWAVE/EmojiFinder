@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emoji Finder</title>
@@ -10,38 +10,35 @@
     <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
     <link rel="manifest" href="site-data/site.webmanifest">
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Welcome to Emoji Finder</h1>
-        <div id="main-menu">
-            <button id="random-emoji">Give me anything</button>
-            <button id="explore-categories">Explore Categories</button>
+      <h1>Welcome to Emoji Finder</h1>
+      <div id="main-menu">
+        <button id="random-emoji">Give me anything</button>
+        <button id="explore-categories">Explore Categories</button>
+      </div>
+      <div id="emoji-display" class="hidden">
+        <div id="emoji-content"></div>
+        <button id="get-another-one">Get another one</button>
+        <button id="go-back">Go back</button>
+      </div>
+      <div id="categories" class="hidden">
+        <div class="category-grid">
+          <!-- Category buttons will be inserted here dynamically -->
         </div>
-
-        <div id="emoji-display" class="hidden">
-            <div id="emoji-content"></div>
-            <button id="get-another-one">Get another one</button>
-            <button id="go-back">Go back</button>
+        <button id="back-to-main">Go back</button>
+      </div>
+      <div id="emoji-list" class="hidden">
+        <div id="group-buttons" class="group-buttons">
+          <!-- Group buttons will be inserted here dynamically -->
         </div>
-
-        <div id="categories" class="hidden">
-            <div class="category-grid">
-                <!-- Category buttons will be inserted here dynamically -->
-            </div>
-            <button id="back-to-main">Go back</button>
+        <div class="emoji-grid">
+          <!-- Emojis will be inserted here dynamically -->
         </div>
-
-        <div id="emoji-list" class="hidden">
-            <div id="group-buttons" class="group-buttons">
-                <!-- Group buttons will be inserted here dynamically -->
-            </div>
-            <div class="emoji-grid">
-                <!-- Emojis will be inserted here dynamically -->
-            </div>
-            <button id="back-to-categories">Go back</button>
-        </div>
+        <button id="back-to-categories">Go back</button>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
