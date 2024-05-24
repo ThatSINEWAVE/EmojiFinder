@@ -1,8 +1,8 @@
 <div align="center">
 
-# EmojiFinder
+# [EmojiFinder](https://thatsinewave.github.io/EmojiFinder)
 
-Welcome to EmojiFinder, a fun and intuitive tool to discover and explore a vast array of emojis! This web application allows you to find random emojis, explore emojis by categories, and dive deeper into specific groups within those categories. Check out the site [here](https://thatsinewave.github.io/EmojiFinder).
+Welcome to EmojiFinder, a fun and intuitive tool to discover and explore a vast array of emojis! This web application allows you to find random emojis, explore emojis by categories, and dive deeper into specific groups within those categories.
 
 </div>
 
