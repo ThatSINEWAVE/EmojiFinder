@@ -4,6 +4,8 @@
 
 Welcome to EmojiFinder, a fun and intuitive tool to discover and explore a vast array of emojis! This web application allows you to find random emojis, explore emojis by categories, and dive deeper into specific groups within those categories.
 
+![EmojiFinder](https://github.com/user-attachments/assets/9f8aac0d-5bf4-4869-a08d-b614efdec864)
+
 </div>
 
 ## Features
